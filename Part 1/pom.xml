@@ -16,9 +16,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.slytechs.jnet</groupId>
-            <artifactId>jnetpcap</artifactId>
-            <version>2.0.1+jdk.21</version>
+            <groupId>org.pcap4j</groupId>
+            <artifactId>pcap4j-core</artifactId>
+            <version>[1.0, 2.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pcap4j</groupId>
+            <artifactId>pcap4j-packetfactory-static</artifactId>
+            <version>[1.0, 2.0)</version>
         </dependency>
     </dependencies>
 </project>
